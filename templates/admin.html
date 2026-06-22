@@ -1,0 +1,27 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="text-4xl font-bold mb-8">Admin Dashboard</h1>
+
+<div class="grid md:grid-cols-3 gap-5">
+
+<div class="bg-slate-800 rounded-2xl p-6">
+    <p>Total Users</p>
+    <h2 class="text-4xl font-bold text-cyan-400">{{ users }}</h2>
+</div>
+
+<div class="bg-slate-800 rounded-2xl p-6">
+    <p>Total Transactions</p>
+    <h2 class="text-4xl font-bold text-green-400">{{ transactions }}</h2>
+</div>
+
+<div class="bg-slate-800 rounded-2xl p-6">
+    <p>Total Goals</p>
+    <h2 class="text-4xl font-bold text-yellow-400">{{ goals }}</h2>
+</div>
+
+</div>
+
+{% endblock %}
