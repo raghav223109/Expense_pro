@@ -32,10 +32,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Resume Description
+## Description
 
 Developed a full-stack Expense Tracker Pro web application using Flask and SQLite with secure authentication, advanced financial analytics, savings goal tracking, admin dashboard, multi-currency support, and export reporting features. Implemented interactive data visualization using Chart.js and designed a responsive dark-themed UI using Tailwind CSS.
 
-## GitHub Repository Description
 
 Expense Tracker Pro is a Flask-based fintech dashboard application featuring expense management, advanced analytics, authentication, savings goals, admin monitoring, export reporting, and responsive UI/UX.
